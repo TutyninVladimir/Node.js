@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Тестовая программа</title>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <h1>Тестовая программа</h1>
+	<h2>Введите пользователя</h2>
+    <form action="/check" method="post">
+        <label>Имя</label><br>
+        <input type="text" name="userText" /><br><br>
+        <input type="submit" value="Проверить" />
+    </form>
+	<h2>Получите всех пользователей системы</h2>
+	<form action="/getall" method="post">
+        <input type="submit" value="Получить всех пользователей" />
+    </form>
+</body>
+<html>
